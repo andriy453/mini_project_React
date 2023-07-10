@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import "./Todolist.css";
 
 const Todolist = ({ todos, OnDeliteTodo, onTogleComplited }) => {
