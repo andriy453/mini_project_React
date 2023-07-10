@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.todo_item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  width: 400px;
+}
+.btn{
+  background-color: rgb(45, 45, 143);
+  padding: 0px;
+  width: 100px;
+  border-radius: 2px;
+  color: white;
+}
+
+.Todo__checkbox{
+color: bisque;
+}
+.Todo__checkbox:checked  , 
+.todo_item {
+
+}
+.list__Todo{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}

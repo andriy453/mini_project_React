@@ -1,0 +1,29 @@
+.DropDown {
+  width: 300px;
+  border: 1px solid teal;
+  position: relative;
+  transition: all 1s;
+}
+.menu {
+  background-color: teal;
+  transition: all 5000ms;
+  border: 1px solid grey;
+  right: 0px;
+  width: 100%;
+  transition: all 1s;
+}
+.btn {
+  background-color: antiquewhite;
+    transition: all 1s;
+}
+.conteiner-menu {
+  position: absolute;
+  transition: all 5000ms;
+  right: 0px;
+  width: 100%;
+  top: 40px;
+  transition: all 1s;
+}
+.menu:not(:last-child){
+  margin-bottom: 10px;
+}

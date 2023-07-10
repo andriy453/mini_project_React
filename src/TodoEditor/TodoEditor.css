@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+.form_Todo{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    width:580px;
+}
+.textarea_Todo{
+    width: 550px;
+    text-decoration: none;
+    padding: 5px 15px 5px 15px ;
+    margin-bottom: 10px;
+}
+.btn_Todo{
+    display: block;
+    width: 550px;
+    background-color: rgb(45, 45, 143);
+    color: white;
+    border-radius: 3px;
+}
